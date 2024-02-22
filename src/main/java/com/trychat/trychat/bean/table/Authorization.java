@@ -20,5 +20,5 @@ public class Authorization {
   @Id
   private String id;  // ユーザID
   private String password;  // パスワード
-  private String rol; // 権限
+  private String role; // 権限
 }
