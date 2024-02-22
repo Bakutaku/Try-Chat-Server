@@ -49,5 +49,14 @@ public class AuthorizationService {
     return Optional.empty();
   }
 
+  /**
+   * ユーザがいるか調べる
+   * @param id ユーザID
+   * @return いるかいないか
+   */
+  public boolean existsById(String id){
+    return authoRepo.existsById(id);
+  }
+
 
 }
